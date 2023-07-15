@@ -55,13 +55,13 @@ feh --bg-scale ~/.config/bspwm/wallpapers/landmark.jpg &
 dunst &
 
 # Cursor
-xsetroot -cursor_name left_ptr &
+xsetroot -cursor_name left_ptr
 
 # Polybar
 .config/bspwm/polybar/launch.sh &
 
 # Java Apps
-export _JAVA_AWT_WM_NONREPARENTING=1 &
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Display sleep = off
 xset -dpms &
